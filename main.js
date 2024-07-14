@@ -25,7 +25,7 @@ quoteId.innerHTML = quote.id;
 }
 
 function startAutoPlay() {
-    intervalId = setInterval(generateQuote, 1000);
+    intervalId = setInterval(generateQuote, 3000);
     autoStatus.innerHTML = `Auto: ON`
 }
 
